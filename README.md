@@ -6,7 +6,7 @@
 ## Requirements
 - Raylib
 - Make
-- MinGW64 (if on windows)
+- MinGW-w64 (if on windows)
 
 ## Installation
 ### Clone the Repository
