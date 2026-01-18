@@ -4,9 +4,10 @@
 > The undead have risen... Fight through the hordes and escape Spinut to survive.
 
 ## Requirements
-- Raylib
+(Raylib itself is included)
 - Make
 - MinGW-w64 (if on windows)
+- Raylib linux system libraries (X11, OpenGL, ALSA...)
 
 ## Installation
 ### Clone the Repository
@@ -21,15 +22,21 @@ cd Zombie-Survival-Game
 ```powershell
 .\build.bat
 ```
+MinGW-w64 must be in PATH
 
 #### Linux
 ```bash
+chmod +x build.sh
 ./build.sh
 ```
 
 ## Running the Game
-```bash
-Run the compiled game
+```Windows
+SpinutOfTheDead.exe
+```
+
+```Linux
+./SpinutOfTheDead
 ```
 
 ## Controls
@@ -44,5 +51,9 @@ Run the compiled game
 | `ESC` | Pause menu |
 | `Tab` | Inventory menu |
 
+## Notes
+This project was tested on Linux (Pop!_OS) and Windows (MinGW-w64).
+
 ## License
 This project is licensed under the **GNU General Public License v2.0** - see the [LICENSE](LICENSE) file for details.
+Raylib is bundled under the **zlib/libpng license**.
