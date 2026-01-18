@@ -6,6 +6,7 @@
 ## Requirements
 - Raylib
 - Make
+- MinGW64 (if on windows)
 
 ## Installation
 ### Clone the Repository
@@ -17,8 +18,8 @@ cd Zombie-Survival-Game
 
 ### Building the project
 #### Windows
-```cmd
-nsdodati
+```powershell
+.\build.bat
 ```
 
 #### Linux
@@ -28,7 +29,7 @@ nsdodati
 
 ## Running the Game
 ```bash
-nadodati
+Run the compiled game
 ```
 
 ## Controls
